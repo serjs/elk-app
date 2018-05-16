@@ -9,8 +9,13 @@ There are three supported GET request methods
 
 ## Getting Started
 
-mvn install
-java -jar target/elk-sample-app-0.0.1-SNAPSHOT.jar
+Build project
+
+```mvn install```
+
+Run sample app and try it on localhost:8080 (by default)
+
+```java -jar target/elk-sample-app-0.0.1-SNAPSHOT.jar```
 
 Example application.properties config used in app
 ```
